@@ -15,7 +15,7 @@ module.exports = {
         let randomImage = coffeeGif[Math.floor(Math.random() * coffeeGif.length)]
         const embed = new EmbedBuilder()
         .setTitle(`Coffee's here ${interaction.user.username} skk`)
-        .setDescription(`**It's been prepared by yours truly with a `+'`~secret ingredient`'+`~ hehe ~:heart:**`)
+        .setDescription(`**It's been prepared by yours truly ~:heart:**`)
         .setColor(random)
         .setImage(randomImage)
         .setTimestamp(Date.now())
